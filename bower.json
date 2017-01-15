@@ -1,0 +1,30 @@
+{
+  "name": "lalocespedes.github.io",
+  "description": "website bio",
+  "main": "index.js",
+  "authors": [
+    "lalocespedes@gmail.com"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/lalocespedes/lalocespedes.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "1.5.8",
+    "angular-animate": "1.5.8",
+    "angular-cookies": "1.5.8",
+    "angular-resource": "1.5.8",
+    "angular-sanitize": "1.5.8",
+    "angular-ui-router": "^0.3.2",
+    "ngstorage": "^0.3.11",
+    "angular-ui-notification": "^0.3.5",
+    "lodash": "^4.17.4",
+    "components-font-awesome": "^4.7.0",
+    "bootswatch-dist": "3.3.6-superhero"
+  }
+}

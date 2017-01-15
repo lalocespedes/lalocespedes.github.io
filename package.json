@@ -1,0 +1,21 @@
+{
+  "name": "lalocespedes.github.io",
+  "version": "1.0.0",
+  "description": "website bio",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lalocespedes/lalocespedes.github.io.git"
+  },
+  "author": "lalocespedes@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lalocespedes/lalocespedes.github.io/issues"
+  },
+  "homepage": "https://github.com/lalocespedes/lalocespedes.github.io#readme"
+}
