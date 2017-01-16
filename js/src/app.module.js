@@ -7,6 +7,8 @@
         'ngSanitize',
         'ngResource',
         'ngStorage',
-        'ui.bootstrap'
+        'ui.bootstrap',
+        'ngFileSaver'
     ]);
+    
 })();

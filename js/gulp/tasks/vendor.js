@@ -13,7 +13,9 @@ gulp.task('vendor', function() {
         './bower_components/angular-sanitize/angular-sanitize.js',
         './bower_components/angular-resource/angular-resource.js',
         './bower_components/ngstorage/ngStorage.js',
-        './bower_components/angular-bootstrap/ui-bootstrap.js'
+        './bower_components/angular-bootstrap/ui-bootstrap.js',
+        './bower_components/file-saver/FileSaver.js',
+        './bower_components/angular-file-saver/dist/angular-file-saver.js'
     ])
 	.pipe(concat('vendor.js'))
 	.pipe(uglify())
@@ -22,19 +24,6 @@ gulp.task('vendor', function() {
     .pipe(rev.manifest('rev-manifiest-vendor'))
     .pipe(revDel({ dest: './scripts' }))
     .pipe(gulp.dest('./scripts'));
-
-    // Inject
-    gulp.src('index.html')
-    .pipe(inject(gulp.src(['./scripts/vendor*.js'], {
-            read: false
-        }),
-        {
-            name: 'vendor',
-            addRootSlash: true,
-            ignorePath: 'public'
-        }
-    ))
-    .pipe(gulp.dest('./'));
 
     return browserSync.reload();
 

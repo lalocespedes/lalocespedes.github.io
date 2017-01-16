@@ -26,6 +26,7 @@
     "lodash": "^4.17.4",
     "components-font-awesome": "^4.7.0",
     "bootswatch-dist": "3.3.6-superhero",
-    "angular-bootstrap": "^2.4.0"
+    "angular-bootstrap": "^2.4.0",
+    "file-saver": "^1.3.3"
   }
 }
