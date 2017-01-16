@@ -1,4 +1,4 @@
 # lalocespedes.github.io
 
-execute server local
+#execute server local
 python -m SimpleHTTPServer

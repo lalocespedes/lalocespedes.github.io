@@ -10,7 +10,8 @@ gulp.task('styles', function() {
     //var manifest = path.join(options.manifest, 'rev-manifest.json');
 
     return gulp.src([
-        './bower_components/bootswatch-dist/css/bootstrap.css'
+        './bower_components/bootswatch-dist/css/bootstrap.css',
+        './bower_components/components-font-awesome/css/font-awesome.css'
     ])
         .pipe(concat('styles.css'))
         //.pipe(rev())
