@@ -28,7 +28,7 @@
 
             vm.downloadpdf = function () {
 
-                $http.get('http://localhost:8000/lalocespedes.pdf',{
+                $http.get('http://lalocespedes.github.io//lalocespedes.pdf',{
                     responseType: 'arraybuffer'
                 }).then(function (response) {
 
