@@ -7,6 +7,12 @@
       "type": "gulp",
       "task": "angular",
       "problemMatcher": []
+    },
+    {
+      "type": "gulp",
+      "task": "watch",
+      "group": "build",
+      "problemMatcher": []
     }
   ]
 }
